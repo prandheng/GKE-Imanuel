@@ -488,7 +488,7 @@ a {
     grid-template-areas: 
     'hero child navigation';
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(93, 87, 87);
+    background-color: rgb(170, 170, 48);
     padding: 10px;
     margin-top: 10px;
     align-items: center;
@@ -521,15 +521,20 @@ a {
 
 .copy-right {
     grid-area: copyright;
+    text-align: center;
     /* background-color: rgb(50, 83, 72); */
 }
 
 .social-media ul {
     display: flex;
     list-style: none;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     /* background-color: aqua; */
+}
+
+.footer-link {
+    justify-content: cemter;
 }
 
 .navigation ul {
@@ -542,7 +547,7 @@ a {
 
 .navigation {
     grid-area: navigation;
-    background-color: rgb(50, 83, 72);
+    /* background-color: rgb(50, 83, 72); */
 }
 
 .footer-nav .footer-login {

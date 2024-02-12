@@ -50,7 +50,7 @@ class Post extends Model
         return 'slug';
     }
 
-    // function untuk automatisasi pembuatan slug dari request url melalui 'title'
+    // function untuk automatisasi pembuatan slug dari request url melalui id 'title' pada input html
     public function sluggable(): array
     {
         return [
