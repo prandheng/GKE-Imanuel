@@ -15,6 +15,7 @@
       <li><a href="/galleries" class="{{ ($active === 'galleries') ? 'active' : '' }}">Galleries</a></li>
       <li><a href="/categories" class="{{ ($active === 'categories') ? 'active' : '' }}">Categories</a></li>
       <li><a href="/jemaat" class="{{ ($active === 'jemaat') ? 'active' : '' }}">Members</a></li>
+      <li><a href="/form" class="{{ ($active === 'form') ? 'active' : '' }}">Formulir</a></li>
       <tr style="padding: 1px; width: 80%; margin: 10px auto"></tr>
       <div class="nav-auth">
         @auth     

@@ -54,7 +54,7 @@ Route::get('/renungans/{renungan:slug}', [RenunganController::class, 'show']);
 Route::resource('/jemaat', JemaatController::class);
 Route::get('/galleries', [GalleryController::class, 'index']);
 
-Route::get('/formulir/form', [BaptisController::class, 'index']);
+Route::get('/form', [BaptisController::class, 'index']);
 // Route::get('/formulir/nikah', [NikahController::class, 'index']);
 // Route::get('/formulir/sidi', [SidiController::class, 'index']);
 
