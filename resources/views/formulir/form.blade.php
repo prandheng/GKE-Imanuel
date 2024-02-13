@@ -37,7 +37,7 @@
           </div>
         
           <div class="tab-panel" id="tab-panel-2">
-            <h3 class="mt-0 mb-3"">Nikah</h3>
+            <h3 class="mt-0 mb-3">Nikah</h3>
             <form>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama</label>
