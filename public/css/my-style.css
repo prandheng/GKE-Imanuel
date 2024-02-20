@@ -6,7 +6,6 @@
 body  {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     background-color: #ddd;
-    margin: 10px;
 }
 
 a {
@@ -22,6 +21,7 @@ a {
     'footer footer';
     flex-direction: column;
     min-height: 100vh;
+    margin: 0 10px 0 10px;
 }
 
 .main {
@@ -85,6 +85,9 @@ a {
     background-color: rgb(50, 83, 72);
 }
 
+nav .nav-link {
+    margin: 0;
+}
 
 
 /* home */
@@ -490,7 +493,6 @@ a {
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(170, 170, 48);
     padding: 10px;
-    margin-top: 10px;
     align-items: center;
     flex-shrink: 0;
     /* text-align: center; */
@@ -517,6 +519,7 @@ a {
 
 .social-media {
     grid-area: social;
+    justify-content: center;
 }
 
 .copy-right {
@@ -528,6 +531,8 @@ a {
 .social-media ul {
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
     /* justify-content: center;
     align-items: center; */
     /* background-color: aqua; */
@@ -647,7 +652,6 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        text-align: center;
     }
 
     .hero-posts {
