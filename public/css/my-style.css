@@ -500,6 +500,7 @@ nav .nav-link {
 
 .footer .hero {
     grid-area: hero;
+    text-align: center;
     /* background-color: rgb(50, 83, 72); */
 }
 
@@ -548,6 +549,9 @@ nav .nav-link {
     grid-template-rows: repeat(auto-fit);
     flex-direction: column;
     place-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation {
