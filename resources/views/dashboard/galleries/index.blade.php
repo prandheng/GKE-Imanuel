@@ -32,7 +32,7 @@
               <form action="/dashboard/galleries/{{ $gallery->id }}" method="post" class="d-inline">
                 @method('delete')
                 @csrf
-                <button class="badge bg-danger border-0" onclick="return confirm('Post akan dihapus! Anda yakin?')"><span data-feather="x-circle"></span></button>
+                <button class="badge bg-danger border-0" onclick="return confirm('Moment akan dihapus! Anda yakin?')"><span data-feather="x-circle"></span></button>
               </form>
             </td>
           </tr>

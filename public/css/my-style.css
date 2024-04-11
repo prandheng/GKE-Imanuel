@@ -532,7 +532,7 @@ nav .nav-link {
 .social-media ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 0;
     /* justify-content: center;
     align-items: center; */
